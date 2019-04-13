@@ -1,0 +1,12 @@
+.header {
+    .grid {
+        display: flex;
+    }
+
+    &__logo a{
+        font-family: $font-pacif;
+        font-size: 50px;
+    }
+
+
+}
