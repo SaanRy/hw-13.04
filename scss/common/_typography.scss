@@ -1,0 +1,12 @@
+h1 {
+    @include page-title(60px);
+}
+
+h2 {
+    @include page-title(90px);
+}
+
+
+h3 {
+    @include page-title(40px);
+}

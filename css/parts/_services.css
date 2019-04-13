@@ -1,0 +1,12 @@
+.services__list {
+  list-style: none;
+}
+
+.services__item {
+  display: block;
+}
+
+.services__link {
+  display: flex;
+  justify-content: space-between;
+}

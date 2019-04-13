@@ -12,22 +12,163 @@
 body {
   font-family: "Raleway", sans-serif;
   color: #262626;
+  font-size: 17px;
 }
 
 a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .grid {
   width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
-.header .grid {
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 90px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.hero {
+  background-image: url("../img/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero__title {
+  font-weight: 900;
+  float: left;
+  margin-bottom: 34px;
+}
+
+.hero__title:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.hero__text {
+  float: left;
+  margin-bottom: 34px;
+}
+
+.hero__link {
+  padding: 10px 25px;
+  background-color: #ff6033;
+  color: #f9f8fb;
+  float: left;
+}
+
+.hero__scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  width: 23px;
+  height: 37px;
+  margin-left: -11.5px;
+  background-image: url("../img/hero-scroll-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 255px;
 }
 
-.header__logo a {
+.header__logo {
   font-family: "Pacifico", cursive;
   font-size: 50px;
+  color: #262626;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__elem {
+  font-size: 16px;
+}
+
+.nav__elem:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav__elem:hover .nav__btn:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ff6033;
+  margin-bottom: -3px;
+}
+
+.about {
+  color: #f9f8fb;
+  background-color: #00b1b1;
+}
+
+.about__content {
+  text-align: left;
+}
+
+.about__title {
+  margin-bottom: 35px;
+}
+
+.about__text {
+  line-height: 27px;
+}
+
+.services__list {
+  list-style: none;
+}
+
+.services__item {
+  display: block;
+}
+
+.services__link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__img {
+  background-image: url("../img/services-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

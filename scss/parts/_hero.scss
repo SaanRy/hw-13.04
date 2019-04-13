@@ -1,0 +1,45 @@
+.hero {
+    background-image: url('#{$path-img}/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    &__title {
+        font-weight: 900;
+        float: left;
+        margin-bottom: 34px;
+    }
+
+    &__title:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    &__text {
+        float: left;
+        margin-bottom: 34px;
+    }
+
+    &__link {
+        padding: 10px 25px;
+        background-color: $color-coral;
+        color: $color-white;
+        float: left;
+    }
+
+    &__scroll {
+        position: absolute;
+        left: 50%;
+        bottom: 5%;
+        width: 23px;
+        height: 37px;
+        margin-left: -11.5px;
+        background-image: url('#{$path-img}/hero-scroll-icon.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+}

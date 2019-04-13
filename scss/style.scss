@@ -2,6 +2,10 @@
 @import "mixins";
 // General
 @import "common/general";
+@import "common/typography";
 
-
-@import "parts/
+//parts
+@import "parts/hero";
+@import "parts/header";
+@import "parts/about";
+@import "parts/services";

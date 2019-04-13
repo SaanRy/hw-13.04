@@ -1,0 +1,18 @@
+.about {
+
+    color: $color-white;
+    background-color: $color-blue;
+
+    &__content {
+        text-align: left;
+    }
+
+    &__title {
+        margin-bottom: 35px;
+    }
+
+
+    &__text {
+        line-height: 27px;
+    }
+}

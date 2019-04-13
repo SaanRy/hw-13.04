@@ -1,0 +1,26 @@
+.services {
+
+
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: block;
+    }
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__img {
+        background-image: url('#{$path-img}/services-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+}

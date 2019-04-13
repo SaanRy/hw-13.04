@@ -12,14 +12,32 @@
 body {
     font-family: $font-raleway;
     color: $color-black;
+    font-size: 17px;
 }
 
 a {
     text-decoration: none;
 }
 
+
+img {
+    max-width: 100%;
+}
+
 .grid {
     width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
 
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
 }
