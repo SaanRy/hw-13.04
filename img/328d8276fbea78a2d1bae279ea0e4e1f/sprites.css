@@ -1,0 +1,28 @@
+.services-icon-4, .services-icon-1, .services-icon-2, .services-icon-3{
+	background: url(sprites.png) no-repeat;
+}
+
+.services-icon-4{
+	background-position: -112px 0;
+	width: 55px;
+	height: 55px;
+}
+
+.services-icon-1{
+	background-position: -172px 0;
+	width: 47px;
+	height: 44px;
+}
+
+.services-icon-2{
+	background-position: -54px 0;
+	width: 55px;
+	height: 49px;
+}
+
+.services-icon-3{
+	background-position: 0 0;
+	width: 54px;
+	height: 54px;
+}
+

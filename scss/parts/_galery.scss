@@ -13,6 +13,22 @@
         margin-bottom: 50px;
     }
 
+    &__portfolio {
+        a {
+            font-size: 0;
+        }
+
+        img {
+            max-width: 100%;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        margin-bottom: 50px;
+    }
+
+
+
     &__link {
         font-size: 20px;
         font-weight: 300;
@@ -20,17 +36,6 @@
         background-color: $color-seablue;
         padding: 20px 43px;
     }
-
-    &__portfolio {
-        margin-bottom: 50px;
-    }
-
-    .row {
-        margin-bottom: 15px;
-    }
-
-
-
 
 
 }

@@ -23,19 +23,32 @@
         display: flex;
         justify-content: space-between;
         background-color: $color-white;
+        width: 400px;
+        height: 100px;
         margin-bottom: 20px;
-        padding: 20px 0;
         text-align: center;
         font-family: $font-raleway;
         font-size: 20px;
         font-weight: 700;
         color: $color-black;
 
-        .row {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
+        &--left {
+            width: 300xp;
+            padding: 0 33px;
         }
+
+        &--rigth {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            border-right: 2px solid $color-black;
+
+            img {
+                margin: auto;
+            }
+        }
+
+
     }
 
     &__img {
@@ -46,7 +59,7 @@
         width: 527px;
         position: relative;
         margin-top: -80px;
-     
+
 
     }
 
@@ -60,11 +73,11 @@
 
     }
 
-    &__title{
-        word-break: keep-all;   
+    &__title {
+        word-break: keep-all;
         overflow: visible;
         position: absolute;
-        top:25%;
+        top: 25%;
         left: 25%;
         color: $color-white;
     }
