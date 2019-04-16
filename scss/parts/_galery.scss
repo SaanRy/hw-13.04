@@ -1,0 +1,36 @@
+.galery {
+
+
+    background-color: $color-mustard;
+    padding: 100px 0 120px 0;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+    }
+
+    &__link {
+        font-size: 20px;
+        font-weight: 300;
+        color: $color-white;
+        background-color: $color-seablue;
+        padding: 20px 43px;
+    }
+
+    &__portfolio {
+        margin-bottom: 50px;
+    }
+
+    .row {
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+}

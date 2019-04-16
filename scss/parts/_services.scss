@@ -1,5 +1,8 @@
 .services {
 
+    background-color: $color-aqua;
+    padding: 180px 0 150px 0;
+
 
 
     &__list {
@@ -8,19 +11,61 @@
 
     &__item {
         display: block;
+        position: relative;
+
+        &:hover {
+            box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+        }
     }
 
     &__link {
+
         display: flex;
         justify-content: space-between;
+        background-color: $color-white;
+        margin-bottom: 20px;
+        padding: 20px 0;
+        text-align: center;
+        font-family: $font-raleway;
+        font-size: 20px;
+        font-weight: 700;
+        color: $color-black;
+
+        .row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     &__img {
         background-image: url('#{$path-img}/services-bg.png');
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-size: contain;
+        height: 462px;
+        width: 527px;
+        position: relative;
+        margin-top: -80px;
+     
 
     }
 
+    &__devider {
+        position: absolute;
+        right: 25%;
+        width: 1px;
+        height: 100%;
+        background-color: $color-black;
+
+
+    }
+
+    &__title{
+        word-break: keep-all;   
+        overflow: visible;
+        position: absolute;
+        top:25%;
+        left: 25%;
+        color: $color-white;
+    }
 }

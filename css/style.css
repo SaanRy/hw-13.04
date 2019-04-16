@@ -153,15 +153,39 @@ h3 {
   line-height: 27px;
 }
 
+.services {
+  background-color: #70bfff;
+  padding: 180px 0 150px 0;
+}
+
 .services__list {
   list-style: none;
 }
 
 .services__item {
   display: block;
+  position: relative;
+}
+
+.services__item:hover {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .services__link {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f8fb;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.services__link .row {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -169,6 +193,56 @@ h3 {
 .services__img {
   background-image: url("../img/services-bg.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-size: contain;
+  height: 462px;
+  width: 527px;
+  position: relative;
+  margin-top: -80px;
+}
+
+.services__devider {
+  position: absolute;
+  right: 25%;
+  width: 1px;
+  height: 100%;
+  background-color: #262626;
+}
+
+.services__title {
+  word-break: keep-all;
+  overflow: visible;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: #f9f8fb;
+}
+
+.galery {
+  background-color: #ffe92f;
+  padding: 100px 0 120px 0;
+  text-align: center;
+}
+
+.galery__title {
+  margin-bottom: 50px;
+}
+
+.galery__text {
+  margin-bottom: 50px;
+}
+
+.galery__link {
+  font-size: 20px;
+  font-weight: 300;
+  color: #f9f8fb;
+  background-color: #5585a2;
+  padding: 20px 43px;
+}
+
+.galery__portfolio {
+  margin-bottom: 50px;
+}
+
+.galery .row {
+  margin-bottom: 15px;
 }
