@@ -344,6 +344,7 @@ h3 {
   background-image: url("../img/subscribe-bg.png");
   background-position: right;
   background-size: cover;
+  text-align: left;
 }
 
 .subscribe__title {
@@ -441,21 +442,30 @@ h3 {
 .blog__date {
   width: 60px;
   height: 60px;
-  font-size: 32px;
-  font-weight: 700;
+  text-align: center;
   background-color: rgba(36, 36, 36, 0.5);
   border-radius: 5px;
   position: absolute;
   top: 30px;
   left: 30px;
-  display: flex;
-  flex-direction: column;
-  padding-top: -10px;
+  padding: 9px;
 }
 
-.blog__date--small {
+.blog__date ._20 {
+  font-size: 32px;
+  font-family: "Raleway";
+}
+
+.blog__date--number {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 0.781;
+  margin-top: -3px;
+}
+
+.blog__date--month {
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .blog__link {
@@ -522,6 +532,6 @@ h3 {
   font-size: 15px;
 }
 
-.footer__autor .strong {
+.footer__autor strong {
   color: #f72b3b;
 }
