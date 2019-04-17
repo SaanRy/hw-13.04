@@ -1,0 +1,35 @@
+.contact {
+
+    padding: 100px 0 120px 0;
+    background-image: url('#{$path-img}/contact-bg.png');
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+    }
+
+
+
+
+    &__list {
+        list-style: none;
+        text-align: left;
+    }
+
+    &__item {
+        font-size: 20px;
+        font-weight: 300;
+
+        strong {
+            display: block;
+            font-size: 17px;
+            font-weight: 700;
+        }
+    }
+
+}

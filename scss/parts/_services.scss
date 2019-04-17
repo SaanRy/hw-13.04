@@ -31,21 +31,26 @@
         font-size: 20px;
         font-weight: 700;
         color: $color-black;
+        align-items: center;
 
         &--left {
-            width: 300xp;
-            padding: 0 33px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+
         }
 
         &--rigth {
             width: 100px;
             height: 100px;
             display: flex;
-            border-right: 2px solid $color-black;
+            justify-content: space-around;
+            align-items: center;
+            border-left: 2px solid $color-black;
+            font-size: 54px;
 
-            img {
-                margin: auto;
-            }
+
+
         }
 
 
@@ -57,6 +62,7 @@
         background-size: contain;
         height: 462px;
         width: 527px;
+        padding-left: 47px;
         position: relative;
         margin-top: -80px;
 
