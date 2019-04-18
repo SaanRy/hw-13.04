@@ -131,12 +131,43 @@ h3 {
   resize: none;
 }
 
-.hero {
+.nav__list {
+  list-style: none;
+}
+
+.nav__elem {
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+}
+
+.nav__elem:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav__elem:hover .nav__btn:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ff6033;
+}
+
+.banner {
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+}
+
+.hero {
+  text-align: left;
+  padding: 255px 0 400px 0;
+  padding-bottom: 405px;
 }
 
 .hero__title {
@@ -176,42 +207,19 @@ h3 {
 }
 
 .header {
+  position: relative;
+}
+
+.header__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 255px;
 }
 
 .header__logo {
   font-family: "Pacifico", cursive;
   font-size: 50px;
   color: #262626;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.nav__elem {
-  font-size: 16px;
-  position: relative;
-}
-
-.nav__elem:not(:last-child) {
-  margin-right: 40px;
-}
-
-.nav__elem:hover .nav__btn:before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: #ff6033;
 }
 
 .about {
