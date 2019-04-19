@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -61,16 +62,16 @@ h3 {
 }
 
 @font-face {
-  font-family: 'icomoon';
-  src: url("../../fonts/icomoon.eot");
-  src: url("../../fonts/icomoon.eot") format("embedded-opentype"), url("../../fonts/icomoon.ttf") format("truetype"), url("../../fonts/icomoon.woff") format("woff"), url("../../fonts/icomoon.svg") format("svg");
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?z9brmy");
+  src: url("../fonts/icomoon.eot?z9brmy#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?z9brmy") format("truetype"), url("../fonts/icomoon.woff?z9brmy") format("woff"), url("../fonts/icomoon.svg?z9brmy#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -83,19 +84,19 @@ h3 {
 }
 
 .icon-icon1:before {
-  content: "\1f323";
+  content: "🌣";
 }
 
 .icon-icon2:before {
-  content: "\e901";
+  content: "";
 }
 
 .icon-icon3:before {
-  content: "\e902";
+  content: "";
 }
 
 .icon-icon4:before {
-  content: "\e903";
+  content: "";
 }
 
 .form-contact {
