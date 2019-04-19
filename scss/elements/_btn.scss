@@ -1,0 +1,23 @@
+.btn {
+
+    &--coral {
+        @include btn($color-coral);
+    }
+
+    &--seablue {
+        @include btn($color-seablue);
+    }
+
+    &--olive {
+        @include btn($color-olive);
+        min-width: 170px;
+    }
+    &--red {
+        @include btn($color-red);
+    }
+
+    &:active,&:hover{
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+
+}

@@ -23,68 +23,32 @@
     }
 
     &__item {
+        display: block;
+        text-decoration: none;
+        color: $color-white;
         position: relative;
-        height: 326px;
+        min-height: 326px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-
-        &--first {
-            background-image: url('#{$path-img}/blog-img-1.jpg');
-            background-position: center;
-            background-size: cover;
-        }
-
-        &--second {
-            background-image: url('#{$path-img}/blog-img-2.jpg');
-            background-position: center;
-            background-size: cover;
-        }
-
-        &--third {
-            background-image: url('#{$path-img}/blog-img-3.jpg');
-            background-position: center;
-            background-size: cover;
-        }
-
-
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 50%)
     }
 
-    &__description {
-        font-size: 20px;
-        line-height: 25px;
-        text-align: left;
-        padding: 0 20px;
-        margin-bottom: 21px;
+    &__link {
+        display: block;
     }
-
-    &__time {
-        font-size: 13px;
-        line-height: 25px;
-        text-align: left;
-        padding: 0 20px;
-        margin-bottom: 25px;
-    }
-
-
 
     &__date {
         width: 60px;
         height: 60px;
         text-align: center;
         background-color: $color-shadow;
+        color: $color-white;
         border-radius: 5px;
         position: absolute;
         top: 30px;
         left: 30px;
         padding: 9px;
-
-        ._20 {
-            font-size: 32px;
-            font-family: "Raleway";
-
-
-        }
 
         &--number {
             font-size: 32px;
@@ -100,12 +64,24 @@
     }
 
 
-    &__link {
+    &__description {
         font-size: 20px;
-        font-weight: 300;
+        line-height: 25px;
+        text-align: left;
+        padding: 0 20px;
+        margin-bottom: 21px;
         color: $color-white;
-        background-color: $color-red;
-        padding: 20px 43px;
+    }
+
+
+
+    &__time {
+        font-size: 13px;
+        line-height: 25px;
+        text-align: left;
+        padding: 0 20px;
+        margin-bottom: 25px;
+        color: $color-white;
     }
 
 
